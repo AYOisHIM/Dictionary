@@ -1,0 +1,155 @@
+Skip to content
+Navigation Menu
+AYOisHIM
+Rough-Dictionary
+
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Commit a1cd625
+Rita0975
+Rita0975
+authored
+4 days ago
+Verified
+Add files via upload
+main
+1 parent 
+807ded1
+ commit 
+a1cd625
+File tree
+Filter files…
+dictionary.py
+1 file changed
++29
+-0
+lines changed
+Search within code
+ 
+Customizable line height
+The default line height has been increased for improved accessibility. You can choose to enable a more compact line height from the view settings menu.
+
+‎dictionary.py‎
++29
+Lines changed: 29 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,29 @@
+igbo = igbo_dict = {
+    "dog": "nkita",
+     "cat": "pusi",
+    "goat": "ewu",
+    "cow": "ehi",
+     "horse": "hai",
+    "sheep": "aturu",
+    "pig": "ezi" ,
+    "chicken": "okuko",
+    "rat": "oke",
+    "fish": "azu",
+    "hawk": "ugo",
+    "snail": "ejula",
+    "rabbit": "onyeokuku",
+    "bat": "anwanta",
+    "turkey": "tooki",
+    "tortoise": "mbe",
+    "snake": "agwo",
+    "elephant": "enyi",
+     "monkey": "enwe",
+    "grasshopper": "ukpana",
+}
+key = input("Welcome to the igbo dictionary, Enter an animal you would like to translate to igbo ")
+if key in igbo_dict:
+    print(f"The igbo translation for {key} is {igbo_dict[key]}")
+else:
+    print('Sorry, the animal you are trying to translate is not in the dictionary')
+0 commit comments
+Comments
+0
+ (0)
+Comment
+You're not receiving notifications from this thread.
+Skip to content
+Navigation Menu
+AYOisHIM
+Rough-Dictionary
+
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Commit a1cd625
+Rita0975
+Rita0975
+authored
+4 days ago
+Verified
+Add files via upload
+main
+1 parent 
+807ded1
+ commit 
+a1cd625
+File tree
+Filter files…
+dictionary.py
+1 file changed
++29
+-0
+lines changed
+Search within code
+ 
+Customizable line height
+The default line height has been increased for improved accessibility. You can choose to enable a more compact line height from the view settings menu.
+
+‎dictionary.py‎
++29
+Lines changed: 29 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,29 @@
+igbo = igbo_dict = {
+    "dog": "nkita",
+     "cat": "pusi",
+    "goat": "ewu",
+    "cow": "ehi",
+     "horse": "hai",
+    "sheep": "aturu",
+    "pig": "ezi" ,
+    "chicken": "okuko",
+    "rat": "oke",
+    "fish": "azu",
+    "hawk": "ugo",
+    "snail": "ejula",
+    "rabbit": "onyeokuku",
+    "bat": "anwanta",
+    "turkey": "tooki",
+    "tortoise": "mbe",
+    "snake": "agwo",
+    "elephant": "enyi",
+    "monkey": "enwe",
+    "grasshopper": "ukpana",
+}
+key = input("Welcome to the igbo dictionary, Enter an animal you would like to translate to igbo ")
+if key in igbo_dict:
+    print(f"The igbo translation for {key} is {igbo_dict[key]}")
+else:
+    print('Sorry, the animal you are trying to translate is not in the dictionary')
+0 commit comments
+Comments
+0
+ (0)
+Comment
+You're not receiving notifications from this thread.
+
