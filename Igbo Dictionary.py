@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🌍 Language Dictionary")
+st.title("Language Dictionary")
 
 languages = {
     "yoruba": {"Favour": "Ọ̀nugba", "God": "Olọ́run", "Time": "Àkókò", "Faith": "Ìgbàgbọ́", "Prosper": "Yọ̀",
